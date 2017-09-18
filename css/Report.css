@@ -1,0 +1,51 @@
+.cmvReportWidget {
+    background-color: rgba(33, 33, 33, 0.8);
+    display: none;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1001;
+}
+
+.cmvReportWidget .reportOverlayContents {
+    display: block;
+    font-size: 16px;
+    height: 50px;
+    left: 0;
+    position: absolute;
+    text-align:  center;
+    top: calc(50% - 25px);
+    vertical-align: middle;
+    width: 100%;
+}
+
+.cmvReportWidget .reportOverlayContents i {
+    color: #FF0;
+}
+
+.cmvReportWidget .reportOverlayContents div {
+    color:  #FFF;
+    margin-top: 15px;
+} 
+
+.dijitDialogPaneContent .reportdialog {
+    background-color: #1c3664 !important;
+    color: #fff;
+    font-size: 16px;
+}
+
+.dijitDialogPaneContent .reportdialog ul{
+    background-color: indianred !important;
+	list-style: none !important;
+	-moz-column-count: 2;
+    -moz-column-gap: 8px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 8px;
+    column-count: 2;
+    column-gap: 8px;
+}
+.dijitDialogPaneContent .reportdialog li {
+	padding: 5px;
+}
